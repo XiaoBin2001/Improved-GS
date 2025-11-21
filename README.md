@@ -9,6 +9,8 @@
 In this work, we present a comprehensive improvement to the densification pipeline of 3DGS from three perspectives: when to densify, how to densify, and how to mitigate overfitting. Specifically, we propose an Edge-Aware Score to effectively select candidate Gaussians for splitting. We further introduce a Long-Axis Split strategy that reduces geometric distortions introduced by clone and split operations. To address overfitting, we design a set of techniques, including Recovery-Aware Pruning, Multi-step Update, and Growth Control. Our method enhances rendering fidelity without introducing additional training or inference overhead, achieving state-of-the-art performance with fewer Gaussians.
 
 ## News
+11.21
+We propose a high-quality pruning technique that requires no additional parameters and is learnable. The code has been open-sourced![GNS](https://xiaobin2001.github.io/GNS-web/))
 
 We have updated the CUDA kernel by adding the Compact Box proposed by Speedy Splat, which accelerates training by approximately 15%.
 
