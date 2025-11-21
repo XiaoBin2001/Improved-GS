@@ -10,7 +10,7 @@ In this work, we present a comprehensive improvement to the densification pipeli
 
 ## News
 11.21
-We propose a high-quality pruning technique that requires no additional parameters and is learnable. The code has been open-sourced! [GNS](https://xiaobin2001.github.io/GNS-web/))
+We propose a high-quality pruning technique that requires no additional parameters and is learnable. The code has been open-sourced! [GNS](https://xiaobin2001.github.io/GNS-web/)
 
 We have updated the CUDA kernel by adding the Compact Box proposed by Speedy Splat, which accelerates training by approximately 15%.
 
